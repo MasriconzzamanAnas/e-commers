@@ -43,3 +43,51 @@ a{
     font-size: 1rem;
     padding: 0px 10px;
 }
+.section1 {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+}
+.section1 img{
+    height: 300px;
+}
+.sectionbtn{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+} 
+/* .sectionbtn h1, h2{
+	font-family:Roboto;
+	font-weight: bold;
+	margin: 0px;
+    line-height: 60px;
+	font-size: 4rem;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+	letter-spacing: 3px;
+    color:#3D3D4A;
+    text-transform: uppercase;
+}*/
+.color {
+    color: #7A72ff;
+} 
+.sectionbtn h1, h2 {
+    font-family: Roboto;
+    font-weight:bold;
+    line-height: 60px;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px  2px 10px rgba(0,0,0,0.08);
+    letter-spacing: 9px;
+    color: #3D3D4A;
+    text-transform: uppercase;
+}
+.sectionbtn h1{
+    letter-spacing: 50px;
+} 
+.sectionbtn h2 {
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+.btn {}
