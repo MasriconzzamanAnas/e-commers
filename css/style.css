@@ -95,7 +95,6 @@ a{
     height: 40px;
     box-shadow: 3px 3px 30px rgb(0,0,0,0.1);
     border-radius: 10% 10% 10% 10%/ 50% 50% 50% 50%;
-    background: #2f2e41;
     margin-top: 20px ;
     outline: none;
     display: flex;
@@ -109,4 +108,41 @@ a{
 }
 .btn a {
     text-decoration: none;
+    color: #1f1f1f;
+}
+.btn :hover{
+    color: #fff;
+}
+.iconarea{
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    background-color: #fff;
+    padding: 5px 0px;
+    z-index: 1;
+}
+.iconarea a {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    align-items: center;
+    justify-content: center;
+}
+.iconarea a {
+    color: rgba(39, 39, 39, 0.80);
+}
+.iconarea a:hover .fa-facebook{
+    color: #173d8f;
+}
+.iconarea a:hover .fa-twitter{
+	color: #00acee ;
+}
+.iconarea a:hover .fa-instagram{
+	color:  #3f729b ;
+}
+.iconarea a:hover .fa-linkedin{
+	color: 	#0077b5;
 }
