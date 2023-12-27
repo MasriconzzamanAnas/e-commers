@@ -146,3 +146,20 @@ a{
 .iconarea a:hover .fa-linkedin{
 	color: 	#0077b5;
 }
+
+.productsection{
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px ;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+.productsection h3{
+    
+}
