@@ -182,7 +182,6 @@ a{
     align-items: center;
     flex-wrap: wrap;
     margin: 10px 0px ;
-    padding: 20px;
     width: 100%;
 }
 /*.product {
@@ -207,4 +206,10 @@ a{
 }
 .productbox img {
 	height: 180px;
+}
+.productbox > p{
+    color: #4d4d4d70;
+    font-size: 0.9rem;
+    letter-spacing: 0.5;
+    font-family: myriad pro;
 }
